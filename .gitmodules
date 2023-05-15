@@ -1,0 +1,6 @@
+[submodule "backend"]
+	path = backend
+	url = git@github.com:ChargeKart/backend.git
+[submodule "nginx"]
+	path = nginx
+	url = git@github.com:ChargeKart/nginx.git
