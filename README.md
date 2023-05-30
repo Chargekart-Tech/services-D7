@@ -8,7 +8,7 @@
 
 - Clone the main repository and submodules:
 ```
-git clone -j8 --recurse-submodules --remote-submodules git@github.com:Chargekart-Tech/services.git
+git clone -j8 --recurse-submodules --remote-submodules git@github.com:Chargekart-Tech/services-D7.git
 ```
 
 - Run initialization script:
