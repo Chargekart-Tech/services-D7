@@ -13,12 +13,12 @@ services:
 
     backend:
         build:
-            context: ./backend
+            context: ./backend-D7
             dockerfile: dev.Dockerfile
         env_file:
             - ./.env
         volumes:
-            - ./backend:/app
+            - ./backend-D7:/app
         tty: true
         depends_on:
             - mongo
