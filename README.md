@@ -11,6 +11,11 @@
 git clone -j8 --recurse-submodules --remote-submodules git@github.com:Chargekart-Tech/services-D7.git
 ```
 
+- Pull latest changes for the submodules
+```
+git pull --recurse-submodules
+```
+
 - Run initialization script:
 ```
 ./init.sh
