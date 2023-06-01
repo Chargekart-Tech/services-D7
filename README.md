@@ -23,10 +23,10 @@ git pull --recurse-submodules
 
 - Build and spin up all services
 ```
-docker compose -f docker-compose.dev.yml -p ck-dev up --build -d
+docker compose -f docker-compose.dev.yml -p ck-d7-dev up --build -d
 ```
 
 - To stop the services
 ```
-docker compose -f docker-compose.dev.yml -p ck-dev down
+docker compose -f docker-compose.dev.yml -p ck-d7-dev down
 ```
