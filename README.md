@@ -21,6 +21,11 @@ git pull --recurse-submodules
 ./init.sh
 ```
 
+If you get an error, please run the following command and try again:
+```
+chmod +x init.sh
+```
+
 - Build and spin up all services
 ```
 docker compose -f docker-compose.dev.yml -p ck-d7-dev up --build -d
