@@ -31,7 +31,7 @@ chmod +x init.sh
 docker compose -f docker-compose.dev.yml -p ck-d7-dev up --build -d
 ```
 
-- To stop the services
+- To stop the services (Without removing the MongoDB data)
 ```
 docker compose -f docker-compose.dev.yml -p ck-d7-dev down
 ```
