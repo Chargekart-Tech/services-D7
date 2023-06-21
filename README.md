@@ -8,11 +8,12 @@
 
 - Clone the main repository and submodules:
 ```
-git clone -j8 --recurse-submodules --remote-submodules git@github.com:Chargekart-Tech/services-D7.git
+git clone -j8 --recurse-submodules --remote-submodules https://github.com/Chargekart-Tech/services-D7.git
 ```
 
 - Pull latest changes for the submodules
 ```
+cd services-D7
 git pull --recurse-submodules
 ```
 
